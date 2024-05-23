@@ -1,0 +1,98 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+    min-height: 135vh;
+    background-image: url(damn.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.netflix-logo {
+  margin-right: 50px;
+}
+
+.netflix-logo img {
+  height: 80px;
+}
+
+.login-form {
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.login-form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #fff;
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: darkred;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+.ignore
+{
+    text-align: center;
+}
+.ignore a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    border:2px solid;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin:top;
+    backdrop-filter: blur(15px);
+    background-color: rgb(114, 113, 113);
+    
+}
